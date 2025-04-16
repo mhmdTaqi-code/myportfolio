@@ -9,7 +9,7 @@ export default function FooterComponent({ darkMode }) {
       <Container>
         <div className="mb-3 d-flex justify-content-center gap-3">
           <a
-            href="https://github.com/your-github"
+            href="https://github.com/mhmdTaqi-code"
             target="_blank"
             rel="noreferrer"
             className="text-decoration-none"
@@ -17,7 +17,7 @@ export default function FooterComponent({ darkMode }) {
             <FaGithub size={24} color={darkMode ? "#f0f0f0" : "#333"} />
           </a>
           <a
-            href="https://linkedin.com/in/your-linkedin"
+            href="https://www.linkedin.com/in/mohammadtaqihussein/"
             target="_blank"
             rel="noreferrer"
             className="text-decoration-none"
