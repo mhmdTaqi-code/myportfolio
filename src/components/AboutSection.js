@@ -1,15 +1,12 @@
 import React from "react";
 import { Container } from "react-bootstrap";
+import imge from "../assets/1.jpg";
 
 export default function AboutSection({ lang }) {
   return (
     <section className="text-center py-5" id="about">
       <Container>
-        <img
-          src="./image/1.jpg"
-          className="mx-auto mb-4 profile-img"
-          alt="Profile"
-        />
+        <img className="mx-auto mb-4 profile-img" alt="Profile" src={imge} />
         <h1>
           {lang === "ar"
             ? "اهلا , انا محمدتقي مطور واجهات المواقع"
